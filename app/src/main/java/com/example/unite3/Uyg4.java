@@ -21,14 +21,7 @@ public class Uyg4 extends AppCompatActivity {
         System.out.println("Karakter:" + karakter);
         System.out.println("ASCII kodu:"+ ascii);
 
-        boolean degisken1=true;
-        System.out.println(degisken1);
 
-        boolean degisken2=false;
-        System.out.println(degisken2);
-
-        char karakter='0';
-        int ascii=(int) karakter;
         if (ascii<= 48 && ascii>= 58)
 
             System.out.println("yazı girildi");

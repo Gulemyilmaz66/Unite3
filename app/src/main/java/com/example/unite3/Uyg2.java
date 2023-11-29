@@ -23,11 +23,6 @@ public class Uyg2 extends AppCompatActivity {
         System.out.println("long:" + uzunSayi);
 
 
-        boolean degisken1=true;
-        System.out.println(degisken1);
-
-        boolean degisken2=false;
-        System.out.println(degisken2);
     }
     public void Geri(View view) {
         Intent i =new Intent(Uyg2.this,MainActivity.class);

@@ -18,11 +18,6 @@ public class Uyg3 extends AppCompatActivity {
         karakter = 'A' + 1;
         System.out.println("Karakter: " + karakter);
 
-        boolean degisken1=true;
-        System.out.println(degisken1);
-
-        boolean degisken2=false;
-        System.out.println(degisken2);
     }
     public void Geri(View view) {
         Intent i =new Intent(Uyg3.this,MainActivity.class);
